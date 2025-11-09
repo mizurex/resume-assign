@@ -62,6 +62,7 @@ export default function Login() {
                         Login
                     </button>
                 </form>
+                <p className="text-sm text-gray-500 mt-8"> use <span className="font-bold">testuser@gmail.com</span> and <span className="font-bold">1234</span> as credentials</p>
             </div>
         </div>
     )
