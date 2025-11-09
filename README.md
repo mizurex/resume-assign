@@ -2,6 +2,13 @@
 
 An interactive resume built with React + Vite + Tailwind, featuring search, skill filters and expandable sections.
 
+### Demo
+
+
+https://github.com/user-attachments/assets/44426546-f710-45cd-93a2-07824ab68da2
+
+
+
 
 ### Setup
 
