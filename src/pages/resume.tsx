@@ -61,7 +61,6 @@ export default function Resume() {
     })
   }, [data.experience, searchQuery,selectedSkills])
   
-  // Projects support (reads from resume.json if present)
   const projects = useMemo(() => {
     return ((data as unknown as { projects?: Array<{
       id: string
@@ -149,9 +148,6 @@ function toggleProject(id: string) {
                })}
 
             </div>
-
-
-
           <div className="mb-4 mt-9 flex items-center gap-2">
             <label htmlFor="search" className="block text-sm font-medium mb-1">
                 <Search className="size-4 text-gray-500" />
@@ -199,9 +195,6 @@ function toggleProject(id: string) {
                              <ChevronRight
                              className={`size-4 text-gray-500 transition-all duration-300 ease-in-out delay-75 ${expanded ? 'rotate-90' : ''}`}
                            />
-                           
-                            
-                          
                             <h3 className="font-semibold text-sm sm:text-base">
                                {item.title} — {item.company}
                             </h3>
@@ -311,7 +304,6 @@ function toggleProject(id: string) {
           </section>
         )}
 
-        {/* Education */}
         {data.education && data.education.length > 0 && (
           <section aria-labelledby="education-title" className="mt-8 border-b border-zinc-200 pb-4">
             <h2 id="education-title" className="text-2xl font-semibold mb-4 text-center">Education</h2>
