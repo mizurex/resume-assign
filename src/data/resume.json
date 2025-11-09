@@ -1,0 +1,158 @@
+{
+    "name": "Jane Doe",
+    "title": "Frontend Engineer",
+    "email": "jane.doe@example.com",
+    "phone": "+1234567890",
+    "linkedin": "https://www.linkedin.com/in/jane-doe-1234567890",
+    "github": "https://github.com/jane-doe",
+    "website": "https://jane-doe.com",
+    "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Accessibility",
+        "Tailwind",
+        "Node",
+        "Redux",
+        "GraphQL",
+        "Jest",
+        "Cypress",
+        "Next.js",
+        "Vite",
+        "Webpack",
+        "Storybook",
+        "Design Systems",
+        "CI/CD",
+        "Performance"
+    ],
+    "experience": [
+        {
+            "id": "exp-1",
+            "company": "Acme Corp",
+            "title": "Frontend Developer",
+            "startDate": "2023-01",
+            "endDate": "2024-05",
+            "skills": ["React", "TypeScript", "Tailwind", "Jest"],
+            "summary": "Built a reusable component library and improved app performance.",
+            "details": [
+                "Implemented responsive component library with Tailwind and TypeScript",
+                "Improved core web vitals (LCP/FID) by 30% via code-splitting and memoization",
+                "Collaborated with design on accessible patterns (WCAG AA)"
+            ]
+        },
+        {
+            "id": "exp-2",
+            "company": "Globex Inc",
+            "title": "Senior Frontend Engineer",
+            "startDate": "2024-06",
+            "skills": ["React", "Redux", "GraphQL", "Accessibility", "Cypress"],
+            "summary": "Led frontend migration to GraphQL and introduced E2E testing.",
+            "details": [
+                "Migrated data layer from REST to GraphQL with normalized caching",
+                "Set up Cypress E2E suite; stabilized flaky tests, cut regressions by 40%",
+                "Introduced a11y CI checks and semantic HTML usage guidelines"
+            ]
+        },
+        {
+            "id": "exp-3",
+            "company": "Initech",
+            "title": "UI Engineer",
+            "startDate": "2021-06",
+            "endDate": "2022-12",
+            "skills": ["React", "Storybook", "Design Systems", "TypeScript"],
+            "summary": "Built and documented a cross-product design system.",
+            "details": [
+                "Created a Storybook-driven design system adopted by 4 product teams",
+                "Added robust TypeScript types and prop-level a11y validations",
+                "Reduced UI defects by introducing visual regression tests"
+            ]
+        },
+        {
+            "id": "exp-4",
+            "company": "Umbrella Corp",
+            "title": "Web Developer",
+            "startDate": "2019-03",
+            "endDate": "2021-05",
+            "skills": ["JavaScript", "Webpack", "Node", "Performance"],
+            "summary": "Optimized build pipeline and implemented SSR for key pages.",
+            "details": [
+                "Cut bundle size by 25% using code-splitting and tree-shaking",
+                "Introduced SSR for landing pages to improve SEO and TTFB",
+                "Built Node-based tooling to automate asset versioning"
+            ]
+        },
+        {
+            "id": "exp-5",
+            "company": "Stark Industries",
+            "title": "Frontend Engineer",
+            "startDate": "2017-01",
+            "endDate": "2019-02",
+            "skills": ["React", "Next.js", "CI/CD", "Jest"],
+            "summary": "Shipped customer portal with CI/CD and comprehensive unit tests.",
+            "details": [
+                "Built SSR/ISR pages with Next.js for faster high-traffic routes",
+                "Implemented CI/CD pipelines with automated test gates",
+                "Increased unit test coverage from 40% to 85%"
+            ]
+        },
+        {
+            "id": "exp-6",
+            "company": "Wayne Enterprises",
+            "title": "Software Engineer",
+            "startDate": "2015-07",
+            "endDate": "2016-12",
+            "skills": ["JavaScript", "React", "Accessibility"],
+            "summary": "Contributed to accessibility improvements and legacy modernization.",
+            "details": [
+                "Refactored legacy jQuery modules to React components",
+                "Audited and fixed keyboard navigation issues across core flows",
+                "Documented ARIA usage patterns and trained engineers"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj-1",
+            "name": "Portfolio Redesign",
+            "role": "Lead Frontend",
+            "year": "2024",
+            "skills": ["React", "Vite", "Tailwind", "Accessibility"],
+            "summary": "Redesigned personal portfolio with improved performance and a11y.",
+            "highlights": [
+                "Shipped mobile-first UI with WCAG AA contrast",
+                "Reduced CLS by optimizing font loading and image sizes",
+                "Added print styles for resume export"
+            ]
+        },
+        {
+            "id": "proj-2",
+            "name": "Design System Kit",
+            "role": "UI Engineer",
+            "year": "2023",
+            "skills": ["React", "Storybook", "TypeScript", "Design Systems"],
+            "summary": "Component library powering multiple internal apps.",
+            "highlights": [
+                "Created 30+ typed components with comprehensive docs",
+                "Introduced visual regression testing and a11y checks",
+                "Established tokens for color, spacing, and typography"
+            ]
+        },
+        {
+            "id": "proj-3",
+            "name": "Analytics Dashboard",
+            "role": "Frontend Engineer",
+            "year": "2022",
+            "skills": ["React", "Redux", "GraphQL", "Cypress"],
+            "summary": "Real-time analytics for marketing campaigns.",
+            "highlights": [
+                "Implemented chart virtualization for large datasets",
+                "Migrated REST calls to GraphQL queries and subscriptions",
+                "Wrote E2E tests covering critical flows"
+            ]
+        }
+    ],
+    "education": [
+        { "school": "State University", "degree": "B.S. in Computer Science", "year": "2022" },
+        { "school": "Community College", "degree": "A.S. in Information Technology", "year": "2018" }
+    ]
+}
